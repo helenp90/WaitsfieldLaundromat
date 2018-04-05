@@ -14,12 +14,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 //views
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'./')));
 
 //rendering the html page
 
 app.use('/', function(req, res){
-    res.render('./public/index');
+    res.render('./');
 });
 //=============>End Middleware
 
