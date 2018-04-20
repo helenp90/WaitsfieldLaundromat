@@ -13,9 +13,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
 }
-body {
-    filter: grayscale(200%);    
-}
 .body-background-gradient {
     background-image: url(leaves.png);
     background-repeat: no-repeat;
