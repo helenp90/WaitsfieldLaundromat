@@ -14,7 +14,7 @@
   and (min-resolution: 192dpi) { 
 }
 .body-background-gradient {
-    background-image: url(leaves.png);
+    background-image: url(leaves1.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgba(0, 0, 0, 0.7);
